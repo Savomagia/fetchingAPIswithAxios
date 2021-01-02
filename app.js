@@ -1,5 +1,5 @@
 if (process.env.NODE_ENV !== "production") {
-    requestAnimationFrame('dotenv').config()
+    require('dotenv').config();
 }
 
 const weather = document.querySelector('#weather');
